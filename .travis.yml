@@ -5,4 +5,11 @@ node_js:
   - "0.8"
   - "0.6"
 before_script:
-  - npm install -g jasmine-node
+- npm install -g jasmine-node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Gf5bowqKSaA4XO9W/aiPUTgYNU3ZEhtt8jA1hW8HKFRwApqDe1mh7AWb1JYOXiS8Wq2uTCyTBeVs8JN2mx6X1viKYzEt0v/DbCbggAEx1emTbOjG500cGsaKegrpcHTkCLmO15Tn88RZC6tQ+6IfaxeX9UKlf56o5d3fPC5TMsk=
+  app: nodejs-cloud-ci
+  on:
+    repo: kendaleiv/nodejs-cloud-ci
