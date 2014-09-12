@@ -13,3 +13,4 @@ deploy:
   app: nodejs-cloud-ci
   on:
     repo: kendaleiv/nodejs-cloud-ci
+    node: '0.11'
