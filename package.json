@@ -2,7 +2,7 @@
   "name": "nodejs-cloud-ci",
   "version": "0.0.0",
   "description": "nodejs-cloud-ci\r ===============",
-  "main": "app.js",
+  "main": "web.js",
   "scripts": {
     "test": "jasmine-node spec/"
   },
