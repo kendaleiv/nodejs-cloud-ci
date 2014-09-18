@@ -9,7 +9,7 @@ before_script:
 deploy:
   provider: heroku
   api_key:
-    secure: Gf5bowqKSaA4XO9W/aiPUTgYNU3ZEhtt8jA1hW8HKFRwApqDe1mh7AWb1JYOXiS8Wq2uTCyTBeVs8JN2mx6X1viKYzEt0v/DbCbggAEx1emTbOjG500cGsaKegrpcHTkCLmO15Tn88RZC6tQ+6IfaxeX9UKlf56o5d3fPC5TMsk=
+    secure: irJD56uwWDja4LdS8gqe4wiKNnIkleJWwsrilLVwStlh76JbmCvOLMZQ2hycl3lCaNALP/tB+L4jq9oIjrOFokmy5nGKGQjWYLYxdoOrMXdy9Qi878epQyTSBgvTxMhcuuv9idzKTsJ/59DSzHIzf+5q4EvAYnjMH8myjprD7d4=
   app: nodejs-cloud-ci
   on:
     repo: kendaleiv/nodejs-cloud-ci
