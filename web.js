@@ -6,9 +6,10 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-  res.send('Hello World!');
-  res.send('<br />');
-  res.send('process.env.npm_package_version: ' + process.env.npm_package_version);
+  res.send('Hello World!' +
+    '<br />' +
+    'process.env.npm_package_version: ' +
+    process.env.npm_package_version);
 });
 
 var port = Number(process.env.PORT || 5000);
