@@ -1,16 +1,15 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-  - "0.8"
-  - "0.6"
+- '0.11'
+- '0.10'
+- '0.8'
+- '0.6'
 before_script:
 - npm install -g jasmine-node
 deploy:
   provider: heroku
   api_key:
-    secure: irJD56uwWDja4LdS8gqe4wiKNnIkleJWwsrilLVwStlh76JbmCvOLMZQ2hycl3lCaNALP/tB+L4jq9oIjrOFokmy5nGKGQjWYLYxdoOrMXdy9Qi878epQyTSBgvTxMhcuuv9idzKTsJ/59DSzHIzf+5q4EvAYnjMH8myjprD7d4=
+    secure: HaWAk8Gmbe8wL7yO/b//YO3Nx1Axivjy9/xG3Ips1iMsdww/zsKhSSQSLBqo9O2t5XeVOhinrxxJRttrZB8qBpcd6LFimz3jKoUtXI0tnWnHnxQx1jHDXNBcllof7gk8zD2B5tW/A9xZdZ6MsYswZIycnAuOM3MCedRPag2W5Oo=
   app: nodejs-cloud-ci
   on:
     repo: kendaleiv/nodejs-cloud-ci
-    node: '0.11'
